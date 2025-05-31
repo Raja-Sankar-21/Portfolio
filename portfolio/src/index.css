@@ -1,0 +1,150 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: linear-gradient(to bottom, #111827, #000000);
+  color: white;
+  font-family: 'Georgia', serif;
+  line-height: 1.6;
+}
+
+.app-container {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background-color: #ea580c;
+  padding: 2.5rem 1rem;
+  text-align: center;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.4);
+}
+
+.header h1 {
+  font-size: 3rem;
+  letter-spacing: 1px;
+}
+
+.header p {
+  font-style: italic;
+  margin-top: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.links {
+  margin-top: 1rem;
+}
+
+.links a {
+  margin: 0 1rem;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+.links a:hover {
+  color: #fcd34d;
+}
+
+section, footer {
+  padding: 2rem;
+  text-align: center;
+}
+
+section h2, footer h2 {
+  font-size: 2rem;
+  color: #f97316;
+  margin-bottom: 1rem;
+}
+
+.about p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+}
+
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  gap: 1rem;
+  margin-top: 2rem;
+}
+
+.skill-card {
+  background-color: #1f2937;
+  padding: 1rem;
+  border-radius: 12px;
+  box-shadow: 0 0 10px #000;
+  transition: all 0.3s;
+}
+
+.skill-card:hover {
+  background-color: #f97316;
+  color: #000;
+}
+
+.projects ul {
+  list-style: none;
+  padding-left: 0;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+}
+
+.projects li {
+  border-left: 4px solid #fb923c;
+  padding-left: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.projects li strong {
+  display: inline-block;
+  margin-bottom: 0.2rem;
+}
+
+.projects li a {
+  color: #fbbf24;
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.projects li a:hover {
+  color: #fb923c;
+}
+
+.certifications ul {
+  list-style-type: disc;
+  max-width: 800px;
+  margin: auto;
+  text-align: left;
+  padding-left: 1.5rem;
+}
+
+.certifications a {
+  color: #fbbf24;
+  text-decoration: underline;
+  margin-left: 0.5rem;
+}
+
+.contact {
+  border-top: 1px solid #374151;
+  margin-top: 2rem;
+}
+
+.contact p {
+  margin: 0.5rem 0;
+}
+
+.contact a {
+  color: #fbbf24;
+  text-decoration: none;
+}
+
+.contact a:hover {
+  color: #fb923c;
+}

@@ -22,6 +22,11 @@ const Projects = () => (
         <a href="https://xd.adobe.com/view/3ca4f6ce-418b-4233-bdca-f3a5cabe785f-69f7/?fullscreen" target="blank">Live</a>
         <p>Static UI built with Adobe XD for an application used for booking movie tickets.</p>
       </li>
+      <li>
+        <strong>Spolov Design</strong> –
+        <a href="https://www.figma.com/design/MWPNU8Lo4rxcNOtn62Gfly/Spolov-Design?node-id=58-101&t=v0ezaKkpsa3nJIov-1" target="blank">Live</a>
+        <p>Static UI built with Figma for a real-time chat application.</p>
+      </li>
     </ul>
   </section>
 );

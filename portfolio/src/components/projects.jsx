@@ -17,6 +17,11 @@ const Projects = () => (
         <a href="https://netflix-ui-red-zeta.vercel.app/" target="blank">Live</a>
         <p>Static UI clone built with HTML, CSS, and JavaScript.</p>
       </li>
+      <li>
+        <strong>FilmPulse</strong> –
+        <a href="https://xd.adobe.com/view/3ca4f6ce-418b-4233-bdca-f3a5cabe785f-69f7/?fullscreen" target="blank">Live</a>
+        <p>Static UI built with Adobe XD for an application used for booking movie tickets.</p>
+      </li>
     </ul>
   </section>
 );

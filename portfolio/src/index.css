@@ -153,7 +153,7 @@ section h2, footer h2 {
   text-decoration: underline;
   font-weight: bold;
   transition: color 0.2s, text-shadow 0.2s;
-  text-shadow: 0 1px 4px #000;
+  text-shadow: 0 1px 4px #00000015;
 }
 
 .contact a:hover {

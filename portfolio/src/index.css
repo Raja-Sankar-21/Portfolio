@@ -7,7 +7,7 @@
 body {
   background: linear-gradient(to bottom, #111827, #000000);
   color: white;
-  font-family: 'Georgia', serif;
+  font-family: 'Segoe UI', Arial, sans-serif;
   line-height: 1.6;
 }
 
@@ -132,19 +132,31 @@ section h2, footer h2 {
 }
 
 .contact {
-  border-top: 1px solid #374151;
-  margin-top: 2rem;
+  background-color: #ea580c;
+  color: #fff;
+  border-top: 2px solid #fb923c;
+  margin-top: 2.5rem;
+  padding: 2rem 0;
+  margin-left: 0;
+  margin-right: 0;
+  text-align: center;
 }
 
 .contact p {
-  margin: 0.5rem 0;
+  margin: 0.75rem 0;
+  font-size: 1.15rem;
+  color: #fff;
 }
 
 .contact a {
-  color: #fbbf24;
-  text-decoration: none;
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  transition: color 0.2s, text-shadow 0.2s;
+  text-shadow: 0 1px 4px #000;
 }
 
 .contact a:hover {
-  color: #fb923c;
+  color: #fcd34d;
+  text-shadow: 0 2px 8px #fb923c;
 }
